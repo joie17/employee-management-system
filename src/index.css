@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  color: white;
+  /* background-color: rgb(15, 15, 15); */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: "Gilroy", Arial, sans-serif;
+  line-height: 1.6;
+}
+#tasklist::-webkit-scrollbar {
+  display: none;
+}
+#alltaskCS::-webkit-scrollbar {
+  display: none;
+}
